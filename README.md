@@ -63,9 +63,9 @@ Create a dedicated measure table with DAX formulas for various metrics as mentio
 
 
 ***Future Recommendations***
- **1. Target Retention Efforts on Employees Under 30:** This age group shows the highest separation rates and turnover risk, especially in the North region. Tailored engagement programs, growth opportunities, and early-career development can help reduce attrition.
- **2. Strengthen Hiring Strategies for High-Demand Segments:** Most new hires (72.68%) are under 30, and part-time roles—particularly in the West region—show significantly higher hiring volumes. HR should prioritize talent pipelines for younger and hourly/part-time candidates to meet workforce demand.
- **3. Address Workforce Composition and Diversity Trends:** Female representation declines sharply with age and tenure is lower for female employees compared to males. Improving career progression, support programs, and retention strategies for women can enhance long-term workforce stability and diversity.
+**1. Target Retention Efforts on Employees Under 30:** This age group shows the highest separation rates and turnover risk, especially in the North region. Tailored engagement programs, growth opportunities, and early-career development can help reduce attrition.
+**2. Strengthen Hiring Strategies for High-Demand Segments:** Most new hires (72.68%) are under 30, and part-time roles—particularly in the West region—show significantly higher hiring volumes. HR should prioritize talent pipelines for younger and hourly/part-time candidates to meet workforce demand.
+**3. Address Workforce Composition and Diversity Trends:** Female representation declines sharply with age and tenure is lower for female employees compared to males. Improving career progression, support programs, and retention strategies for women can enhance long-term workforce stability and diversity.
 
 **6. Screenshots**
 https://github.com/QuietPredictions/HR-Analysis-Dashboard/blob/main/HRAnalysisDashboard.png
