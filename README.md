@@ -66,5 +66,5 @@ Create a dedicated measure table with DAX formulas for various metrics as mentio
 3. Address Workforce Composition and Diversity Trends: Female representation declines sharply with age and tenure is lower for female employees compared to males. Improving career progression, support programs, and retention strategies for women can enhance long-term workforce stability and diversity.
 
 **VI. Screenshots**
- https://github.com/QuietPredictions/HR-Analysis-Dashboard/blob/main/HRAnalysisDashboard.png
 
+![Dashboard Preview](https://github.com/QuietPredictions/HR-Analysis-Dashboard/blob/main/HRAnalysisDashboard.png)
