@@ -8,12 +8,12 @@ To build a data-driven HR analytics dashboard that clearly identifies the underl
 
 **3. Tech Stack**
 The dashboard was built using the **Power BI Desktop** tool.
-- **Power Query:** Data ingestion, schema exploration, and transformation using Power BI Query Editor.
-- **Data Cleaning & Feature Engineering:** Data type corrections, handling inconsistencies, and creating derived fields (e.g., Region, Age Groups).
-- **Data Modeling:** Star schema design, relationship building with BUCode, GenderID, and Date keys, and ensuring referential integrity.
-- **DAX Calculations:** Development of KPI measures for Active Employees, New Hires, Separations, Tenure, Gender metrics, and workforce segmentation.
-- **Report & Dashboard Design:** Interactive visuals, slicers, and UX-focused layout development in Power BI.
-- **Security & Deployment:** Row-Level Security (RLS), .pbix packaging, exporting to PDF/PPT, and publishing to Power BI Service.
+•	**Power Query:** Data ingestion, schema exploration, and transformation using Power BI Query Editor.
+•	**Data Cleaning & Feature Engineering:** Data type corrections, handling inconsistencies, and creating derived fields (e.g., Region, Age Groups).
+•	**Data Modeling:** Star schema design, relationship building with BUCode, GenderID, and Date keys, and ensuring referential integrity.
+•	**DAX Calculations:** Development of KPI measures for Active Employees, New Hires, Separations, Tenure, Gender metrics, and workforce segmentation.
+•	**Report & Dashboard Design:** Interactive visuals, slicers, and UX-focused layout development in Power BI.
+•	**Security & Deployment:** Row-Level Security (RLS), .pbix packaging, exporting to PDF/PPT, and publishing to Power BI Service.
 
 **4. Data Source**
 •	**Source –** Edureka Project Dataset
