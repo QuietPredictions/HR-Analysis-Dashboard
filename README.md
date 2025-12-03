@@ -18,7 +18,7 @@ The dashboard was built using the **Power BI Desktop** tool.<br>
  6. **Security & Deployment:** Row-Level Security (RLS), .pbix packaging, exporting to PDF/PPT, and publishing to Power BI Service.
 
 
-**IV. Data Source**<br>
+**IV. Data Source**
  1. **Source –** Edureka Project Dataset
  2. **Time Period –** 2011 to 2014
  3. **Size –** 5,46,363 employees data 
@@ -65,7 +65,7 @@ Create a dedicated measure table with DAX formulas for various metrics as mentio
 6.	A majority of new hires (72.68%) were in the <30 age group. Between 2011–2014, hiring averaged 11.87% for females and 13.12% for males, with 408 more female hires than males in the <30 group.
 7.	Average Tenure Months was higher for Male (111.83) than Female (91). 
 
-***Future Recommendations***<br>
+***Future Recommendations***
 1.	Strengthen Retention for <30 Hourly Employees: Implement structured onboarding, early-career mentorship, and clear pathways from part-time to full-time roles. These interventions can reduce high separation rates in the <30 group and boost long-term engagement.
 2.	Optimize Hiring Strategy in the West Region: Given the heavy reliance on part-time hiring, introduce a balanced hiring plan that increases full-time recruitment where needed and establishes performance-based conversion programs to improve workforce stability and reduce turnover.
 3.	Improve Female Tenure and Career Progression: Address the gender tenure gap by expanding flexible work options, leadership development opportunities, and return-to-work programs that support women through key career transitions.
