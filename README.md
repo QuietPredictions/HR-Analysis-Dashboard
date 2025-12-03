@@ -25,9 +25,9 @@ The dashboard was built using the **Power BI Desktop** tool.<br>
 
 
 **V. Features/ Highlights**<br>
-***Business problem***<br>
-Organizations often face challenges in understanding the drivers behind employee attrition, which can hinder effective retention and recruitment strategies. This project aims to design a comprehensive HR analytics dashboard that enables HR professionals to analyse separation trends, uncover underlying factors influencing employee exits, and derive actionable insights to enhance retention and improve future hiring decisions.
 
+***Business problem***
+Organizations often face challenges in understanding the drivers behind employee attrition, which can hinder effective retention and recruitment strategies. This project aims to design a comprehensive HR analytics dashboard that enables HR professionals to analyse separation trends, uncover underlying factors influencing employee exits, and derive actionable insights to enhance retention and improve future hiring decisions.
 
 ***Key Visuals***
  1. Stacked Bar Graph – To show active employees by Age Group and Pay Type
@@ -38,8 +38,7 @@ Organizations often face challenges in understanding the drivers behind employee
  6. Pie Chart – New Hires trend based on age groups
  7. Stacked Bar Chart – Region-wise trend in separations in various age groups
 
-
-***DAX Measures & KPI Logic***<br>
+***DAX Measures & KPI Logic***
 Create a dedicated measure table with DAX formulas for various metrics as mentioned below: - 
  1.	AgeGroupID = IF(Employee[Age] <30, 1, IF(Employee[Age]<50, 2, 3))
 2.	isNewHire = IF(YEAR([date]) = YEAR([HireDate]) && MONTH([date])=MONTH([HireDate]), 1) 
@@ -57,7 +56,6 @@ Create a dedicated measure table with DAX formulas for various metrics as mentio
 14.	Male New Hires = COUNTX(FILTER(Employee, Employee[Gender] = "D" && NOT ISBLANK(Employee[isNewHire])), Employee[EmplID])
 15.	Male Separations = CALCULATE([Separations],Gender[Gender]="Male")
 
-
 ***Insights***
 1.	In North Region, employees under 30 accounted for 15.14% of separations. Overall, employees under 30 recorded the highest average separations (1,374.83), significantly exceeding the 30–49 and 50+ groups.
 2.	Hourly employees dominated the <30 age group with 5,504 employees (40.83%), while salaried employees peaked in the 30–49 age group at 583. The largest gap between Hourly employees and the salaried employees was observed in the <30 age group.
@@ -66,7 +64,6 @@ Create a dedicated measure table with DAX formulas for various metrics as mentio
 5.	Average new hires were significantly higher for part-time roles (2,707.33) compared to full-time (155.17), with the largest gap observed in the West region, where part-time hires exceeded full-time hires by 3,170.
 6.	A majority of new hires (72.68%) were in the <30 age group. Between 2011–2014, hiring averaged 11.87% for females and 13.12% for males, with 408 more female hires than males in the <30 group.
 7.	Average Tenure Months was higher for Male (111.83) than Female (91). 
-
 
 ***Future Recommendations***<br>
 1.	Strengthen Retention for <30 Hourly Employees: Implement structured onboarding, early-career mentorship, and clear pathways from part-time to full-time roles. These interventions can reduce high separation rates in the <30 group and boost long-term engagement.
