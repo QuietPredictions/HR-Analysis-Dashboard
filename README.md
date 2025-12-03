@@ -38,7 +38,7 @@ Organizations often face challenges in understanding the drivers behind employee
  6. Pie Chart – New Hires trend based on age groups
  7. Stacked Bar Chart – Region-wise trend in separations in various age groups
 
-***DAX Measures & KPI Logic***
+***DAX Measures & KPI Logic***<br>
 Create a dedicated measure table with DAX formulas for various metrics as mentioned below: - 
  1.	AgeGroupID = IF(Employee[Age] <30, 1, IF(Employee[Age]<50, 2, 3))
 2.	isNewHire = IF(YEAR([date]) = YEAR([HireDate]) && MONTH([date])=MONTH([HireDate]), 1) 
